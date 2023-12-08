@@ -1,8 +1,8 @@
 let words = ["apple", "cat", "dog", "elephant"];
 
-function ii(words) {
-  return words.filter((words) => words.split("").length >= 5);
+function checkWord(words) {
+  return words.filter((words) => words.length >= 5);
 }
 
-const result = ii(words);
+const result = checkWord(words);
 console.log(result);
